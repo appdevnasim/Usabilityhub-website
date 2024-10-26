@@ -1,0 +1,315 @@
+Actual website url https://usability-hub-clone.vercel.app/
+<!-- We help companies build better products by
+          gathering insights from real users -->
+
+
+          old problem code
+          <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usability Hub website clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Top banner -->
+  <div class="top-banner">
+    <div class="container">
+      <div class="top-banner-content banner-text">
+        🥳UsabilityHub is the world's leading platform for user testing and
+        usability research.
+      </div>
+    </div>
+  </div>
+
+  <nav>
+    <div class="container main-nav flex">
+      <a href="#" class="company-logo">
+        <img src="logo.png" />
+      </a>
+
+      <div class="nav-links">
+        <ul class="flex">
+          <li><a href="#" class="hover-links">Products</a></li>
+          <li><a href="#" class="hover-links">Customers</a></li>
+          <li><a href="#" class="hover-links">Pricing</a></li>
+          <li><a href="#" class="hover-links">Resources</a></li>
+          <li><a href="#" class="signin-btn">Sign In</a></li>
+          <li><a href="#" class="signup-btn">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container header-section flex">
+      <div class="header-left">
+        <h1>Design confidently.</h1>
+        <p>
+          UsabilityHub is a remote user research platform that takes the
+          guesswork out of design decisions by validating them with real
+          users.
+        </p>
+        <button class="signin-btn get-started-btn">Get Started</button>
+      </div>
+      <div class="header-right">
+        <img src="asset 2.png" alt="" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Companies names Section Starts here -->
+  <section class="companies-section">
+    <div class="container">
+      <div class="top-banner-content companies-header">
+        The world’s best companies rely on UsabilityHub to make better design
+        decisions.
+        <div class="logos">
+          <img src="amazon.png" width="100px" />
+          <img src="google.png" width="100px" alt="" />
+          <img src="taskrabbit.png" width="100px" alt="" />
+          <img src="airtable.png" width="100px" alt="" />
+          <img src="box.png" width="80px" />
+          <img src="Godaddy.svg" width="100px" />
+          <img src="asana.png" width="100px" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="container">
+      <div class="features-header">
+        <h2 class="features-heading-text">
+          Your user research Swiss Army knife
+        </h2>
+        <a href="#" class="signin-btn">See All features<i class="fa-sharp fa-solid fa-right-long"></i></a>
+     
+    
+
+
+      <div class="features-card flex">
+        <img src="Card sorting.svg" alt="" />
+        <h3>Card sorting</h3>
+        <p>Discover how people group and label information.</p>
+        <a href="#" class="signin-btn">Learn More</a>
+      </div>
+
+
+      <div class="features-card flex">
+        <img src="protype text.svg" alt="" />
+        <h3>Prototype tests</h3>
+        <p>Discover how people navigate your Figma prototypes.</p>
+        <a href="#" class="signin-btn">Learn More</a>
+      </div>
+
+
+
+      <div class="features-card flex">
+        <img src="First click tests.svg" alt="" />
+        <h3>First click tests</h3>
+        <p>Test interaction with first click and navigation tests.</p>
+        <a href="#" class="signin-btn">Learn More</a>
+      </div>
+
+
+
+      <div class="features-card flex">
+        <img src="Design surveys.svg" alt="" />
+        <h3>Design surveys</h3>
+        <p>Get feedback on images, videos or audio files..</p>
+        <a href="#" class="signin-btn">Learn More</a>
+      </div>
+
+
+
+      <div class="features-card flex">
+        <img src="Preference tests.svg" alt="" />
+        <h3>Preference tests</h3>
+        <p>Find out which designs users prefer and why..</p>
+        <a href="#" class="signin-btn">Learn More</a>
+      </div>
+
+
+
+      <div class="features-card flex">
+        <img src="Five secod Tests.svg" alt="" />
+        <h3>Five second tests</h3>
+        <p>Test comprehensibility by measuring first impressions.</p>
+        <a href="#" class="signin-btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <section class="big-features"></section>
+  <section class="big-features"></section>
+  <section class="big-features"></section>
+
+  <section class="examples-section"></section>
+
+  <section class="cta-section"></section>
+
+  <footer>
+    <div class="container flex"></div>
+  </footer>
+
+  <div class="subfooter"></div>
+
+  <div class="spacer" style="height: 100vh"></div>
+  </body>
+</html>
+
+new code 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usability Hub website clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Top banner -->
+    <div class="top-banner">
+      <div class="container">
+        <div class="top-banner-content banner-text">
+          🥳UsabilityHub is the world's leading platform for user testing and usability research.
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="container main-nav flex">
+        <a href="#" class="company-logo">
+          <img src="logo.png" />
+        </a>
+
+        <div class="nav-links">
+          <ul class="flex">
+            <li><a href="#" class="hover-links">Products</a></li>
+            <li><a href="#" class="hover-links">Customers</a></li>
+            <li><a href="#" class="hover-links">Pricing</a></li>
+            <li><a href="#" class="hover-links">Resources</a></li>
+            <li><a href="#" class="signin-btn">Sign In</a></li>
+            <li><a href="#" class="signup-btn">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container header-section flex">
+        <div class="header-left">
+          <h1>Design confidently.</h1>
+          <p>
+            UsabilityHub is a remote user research platform that takes the
+            guesswork out of design decisions by validating them with real
+            users.
+          </p>
+          <button class="signin-btn get-started-btn">Get Started</button>
+        </div>
+        <div class="header-right">
+          <img src="asset 2.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Companies names Section Starts here -->
+    <section class="companies-section">
+      <div class="container">
+        <div class="top-banner-content companies-header">
+          The world’s best companies rely on UsabilityHub to make better design decisions.
+          <div class="logos">
+            <img src="amazon.png" width="100px" />
+            <img src="google.png" width="100px" alt="" />
+            <img src="taskrabbit.png" width="100px" alt="" />
+            <img src="airtable.png" width="100px" alt="" />
+            <img src="box.png" width="80px" />
+            <img src="Godaddy.svg" width="100px" />
+            <img src="asana.png" width="100px" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <div class="container">
+        <div class="features-header">
+          <h2 class="features-heading-text">Your user research Swiss Army knife</h2>
+          <a href="#" class="signin-btn">See All features <i class="fa-sharp fa-solid fa-right-long"></i></a>
+        </div>
+
+        <div class="features-area flex">
+          <div class="features-card flex">
+            <img src="Card sorting.svg" alt="" />
+            <h3>Card sorting</h3>
+            <p>Discover how people group and label information.</p>
+            <a href="#" class="signin-btn">Learn More</a>
+          </div>
+
+          <div class="features-card flex">
+            <img src="Card sorting.svg" alt="" />
+            <h3>First-click tests</h3>
+            <p>Test interaction with prototypes or live websites.</p>
+            <a href="#" class="signin-btn">Learn More</a>
+          </div>
+
+          <div class="features-card flex">
+            <img src="Card sorting.svg" alt="" />
+            <h3>Preference tests</h3>
+            <p>Find out which design users prefer and why.</p>
+            <a href="#" class="signin-btn">Learn More</a>
+          </div>
+
+          <div class="features-card flex">
+            <img src="Card sorting.svg" alt="" />
+            <h3>Design surveys</h3>
+            <p>Get detailed feedback on your designs.</p>
+            <a href="#" class="signin-btn">Learn More</a>
+          </div>
+
+          <div class="features-card flex">
+            <img src="Card sorting.svg" alt="" />
+            <h3>Prototype tests</h3>
+            <p>Test interaction with prototypes or live websites.</p>
+            <a href="#" class="signin-btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="big-features"></section>
+    <section class="big-features"></section>
+    <section class="big-features"></section>
+
+    <section class="examples-section"></section>
+
+    <section class="cta-section"></section>
+
+    <footer>
+      <div class="container flex"></div>
+    </footer>
+
+    <div class="subfooter"></div>
+
+    <div class="spacer" style="height: 100vh"></div>
+  </body>
+</html>
+
